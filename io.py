@@ -9,8 +9,7 @@ yl = YL38.YL38()
 
 aio = Client('9481fe03ec6b47aa918ed14f6dc9c489')
 
-while True:
-  
+while True:  
     aio.send('temperature', dht.hum_temp_output()[0] - 2)
     time.sleep(1)
     if dht.hum_temp_output()[1] > 100 or dht.hum_temp_output()[1] < 0:
