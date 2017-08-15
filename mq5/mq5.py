@@ -68,7 +68,7 @@ if __name__ == "__main__":
     
     while True:
         LPG = mq.get_gas_percentage(mq.mq_read(mq.mq_pin)/mq.Ro, "LPG") # LPG concentration in the PPM unit
-        CH4 = mq.get_gas_percentage(mq.mq_read(mq.mq_pin)/mq.Ro, "CH4") # LPG concentration in the PPM unit
+        CH4 = mq.get_gas_percentage(mq.mq_read(mq.mq_pin)/mq.Ro, "CH4") # CH4 concentration in the PPM unit
 
         print("LPG: {} ppm    CH4: {} ppm".format(LPG, CH4))
         time.sleep(0.05)
