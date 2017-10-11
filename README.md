@@ -9,4 +9,4 @@
 
 **Software**
 * Raspbian
-* Adafruit IO (link: https://io.adafruit.com/vitalii/dashboards/monitoring-system)
+* [Adafruit IO](https://io.adafruit.com/)
